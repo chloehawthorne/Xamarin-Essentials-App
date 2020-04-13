@@ -5,10 +5,64 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="XamarinEssentials.MainPage">
+    <ScrollView>
+        <Grid ColumnSpacing ="20" RowSpacing="20" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="70"/>
+        </Grid.ColumnDefinitions>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Button Text="{Binding }" />
-    </StackLayout>
+        <Button Text="Button1" Grid.Row="0" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button2" Grid.Row="0" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button3" Grid.Row="0" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button4" Grid.Row="0" Grid.Column="3" CornerRadius="10" />
+        <Button Text="Button5" Grid.Row="1" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="1" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="1" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="1" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="2" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="2" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="2" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="2" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="3" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="3" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="3" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="3" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="4" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="4" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="4" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="4" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="5" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="5" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="5" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="5" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="6" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="6" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="6" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="6" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="7" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="7" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="7" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="7" Grid.Column="3" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="8" Grid.Column="0" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="8" Grid.Column="1" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="8" Grid.Column="2" CornerRadius="10"/>
+        <Button Text="Button1" Grid.Row="8" Grid.Column="3" CornerRadius="10"/>
+        
 
+    </Grid>
+        </ScrollView>
 </ContentPage>
