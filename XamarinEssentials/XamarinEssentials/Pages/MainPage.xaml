@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:XamarinEssentials.DataTemplates"
+             mc:Ignorable="d"
+             x:Class="XamarinEssentials.MainPage">
+    <ScrollView>
+        <Grid ColumnSpacing ="20" RowSpacing="15" Padding="10" BackgroundColor="#000000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Style="{DynamicResource LabelHeadingStyle}" Text="Xamarin Essentials!" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4"/>
+            <Label Style="{DynamicResource LabelCategoryStyle}" Text="Measuring Tools" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"/>
+            <CollectionView Grid.Row="3" Grid.Column="0" ItemsSource="{Binding Measurement }" SelectionMode="Single" SelectedItem="{Binding SelectedButton}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Horizontal" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <local:MeasureTemplate/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+            <Button Style="{DynamicResource MeasureButton}" Text="Button1" Grid.Row="2" Grid.Column="0"/>
+            <Label Text="Accelerometer" Style="{DynamicResource NameLabelStyle}" Grid.Row="3" Grid.Column="0"/>
+            <Button Style="{DynamicResource InfoButton}" Text="Button2" Grid.Row="2" Grid.Column="1"/>
+            <Button Style="{DynamicResource FunctionButton}" Text="Button3" Grid.Row="2" Grid.Column="2"/>
+            <Button Style="{DynamicResource ServicesButton}" Text="Button4" Grid.Row="2" Grid.Column="3"/>
+            
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -8,22 +8,33 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="MeasureButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#BCC4D1"/>
+                <Setter Property="BackgroundColor" Value="#C4FFBD"/>
                 <Setter Property="CornerRadius" Value="20"/>
             </Style>
             <Style x:Key="InfoButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#4AE88E"/>
+                <Setter Property="BackgroundColor" Value="#DAD6FF"/>
                 <Setter Property="CornerRadius" Value="20"/>
-            </Style>#
+            </Style>
             <Style x:Key="FunctionButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#5B8CFF"/>
+                <Setter Property="BackgroundColor" Value="#C5FFF0"/>
                 <Setter Property="CornerRadius" Value="20"/>
             </Style>
             <Style x:Key="ServicesButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#BB1CFF"/>
+                <Setter Property="BackgroundColor" Value="#FFD7BD"/>
                 <Setter Property="CornerRadius" Value="20"/>
             </Style>
-            
+            <Style x:Key="LabelHeadingStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="FontSize" Value="30"/>
+            </Style>
+            <Style x:Key="LabelCategoryStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="FontSize" Value="Subtitle"/>
+            </Style>
+            <Style x:Key="NameLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
             
         </ResourceDictionary>
     </Application.Resources>
